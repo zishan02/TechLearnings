@@ -45,6 +45,14 @@ get_header(); ?>
   </div>
 </div>
 </div>
+<div class="col">
+<div class="card" style="width: 18rem;height : auto;">
+  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Algorithm</h5>
+  </div>
+</div>
+</div>
 </div>
 </div>
 </div>
