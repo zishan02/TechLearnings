@@ -31,7 +31,7 @@ get_header(); ?>
 </div>
 <div class="col"><a href="https://techlearnings.in/category/data-structure">
 <div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java.png" alt="Card image cap">
+  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/dsa-cards.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">DSA</h5>
   </div>
