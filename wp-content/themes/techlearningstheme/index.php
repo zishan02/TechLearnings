@@ -22,34 +22,40 @@ get_header(); ?>
   <div class="row align-items-center">
      
 <div class="col">
-<div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java.png" alt="Card image cap">
+<a href=""><div class="card" style="width: 18rem;height : auto;">
+  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java_full.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Java</h5>
   </div>
+  </a>
 </div>
 </div>
 <div class="col"><a href="https://techlearnings.in/category/data-structure">
+<a href="https://techlearnings.in/category/data-structure">
 <div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/dsa-cards.png" alt="Card image cap">
+  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/a-binary-tree-diagram-icon-in-flat-design-vector.jpeg" alt="Card image cap">
   <div class="card-body">
-    <a href="https://techlearnings.in/category/data-structure"><h5 class="card-title">DSA</h5></a>
+    <h5 class="card-title">DSA</h5>
   </div>
+  </a>
 </div>
 </div></a>
 <div class="col">
+<a href="https://techlearnings.in/category/algorithm">
 <div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/icons8-algorithms-64.png" alt="Card image cap">
+  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/algorithm_full.jpeg" alt="Card image cap">
   <div class="card-body">
-    <a href="https://techlearnings.in/category/algorithm"><h5 class="card-title">Algorithm</h5></a>
+    <h5 class="card-title">Algorithm</h5>
   </div>
+  </a>
 </div>
 </div>
 <div class="col">
+ <a href="https://techlearnings.in/category/design_patterns">
 <div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/icons8-hierarchy-50.png" alt="Card image cap">
+  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/organization.png" alt="Card image cap">
   <div class="card-body">
-    <a href="https://techlearnings.in/category/design_patterns"><h5 class="card-title">Design Patterns</h5></a>
+   <h5 class="card-title">Design Patterns</h5></a>
   </div>
 </div>
 </div>
