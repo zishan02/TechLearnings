@@ -87,7 +87,9 @@ get_header(); ?>
                         if (($count == 1) && ($set_full_first == true) && ($applied_archive == true)) :
                         ?>
 
-
+                            <article id="post-<?php the_ID(); ?>" <?php post_class('aft-first-post-full latest-posts-full col-1 float-l pad'); ?> >
+                                <?php chromenews_get_block('full', 'archive'); ?>
+                            </article>
                         <?php
 
                         else:
