@@ -105,7 +105,7 @@ get_header(); ?>
                          * called content-___.php (where ___ is the Post Format name) and that will be used instead.
                          */
 
-                            get_template_part('template-parts/content', get_post_format());
+                            get_template_part('template-parts/content', 'test');//get_post_format());
                         endif;
 
 
@@ -133,9 +133,9 @@ get_header(); ?>
             </div>
         </div><!-- #primary -->
 
-		<?php
-		get_sidebar();
-		?>
+		<!-- <?php
+        		get_sidebar();
+        		?> -->
 
     </section>
 <?php

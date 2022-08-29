@@ -26,3 +26,29 @@ margin-left: auto;
 margin-right: auto;
 width: 50%;
 }
+.cardlist {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 50%;
+  border: 1px solid lightgray;
+  padding: 2%;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+.site-main{
+background-color:transparent;
+}
+#main{
+border-top: 1px solid lightgray;
+}
+#page{
+background-color:white;
+}
+.card-title{
+text-align: center;
+font-size:150%;
+}

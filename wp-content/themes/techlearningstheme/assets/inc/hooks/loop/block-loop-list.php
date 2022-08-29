@@ -1,9 +1,4 @@
 <?php
-add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
-add_action('chromenews_action_loop_list', 'chromenews_loop_list', 10, 8);
-function enqueue_parent_styles() {
-   wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
-}
 if (!function_exists('chromenews_loop_list')) :
     /**
      * Banner Slider
@@ -22,17 +17,26 @@ if (!function_exists('chromenews_loop_list')) :
 
         <div class="af-double-column list-style clearfix aft-list-show-image">
             <div class="read-single color-pad">
-
-
-
+                <div class="col-3 float-l pos-rel read-img read-bg-img">
+                    <a class="aft-post-image-link"
+                       href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                    <?php chromenews_the_post_thumbnail($chromenews_thumbnail_size, $chromenews_post_id); ?>
                     <?php if (absint($chromenews_count) > 0): ?>
                         <span class="trending-no"><?php echo esc_html($chromenews_count); ?></span>
                     <?php endif; ?>
                     <?php if ($big_img != false): ?>
-
+                        <div class="category-min-read-wrap af-cat-widget-carousel">
+                            <div class="post-format-and-min-read-wrap">
+                                <?php chromenews_post_format($chromenews_post_id); ?>
+                                <?php chromenews_count_content_words($chromenews_post_id); ?>
+                            </div>
+                            <div class="read-categories">
+                                <?php chromenews_post_categories(); ?>
+                            </div>
+                        </div>
                     <?php endif; ?>
-
-                <div class="cardlist">
+                </div>
+                <div class="col-66 float-l pad read-details color-tp-pad">
                     <?php if ($big_img == false): ?>
                         <?php if ($show_cat != false): ?>
                             <div class="read-categories">
@@ -74,5 +78,4 @@ if (!function_exists('chromenews_loop_list')) :
         <?php
     }
 endif;
-
-?>
+add_action('chromenews_action_loop_list', 'chromenews_loop_list', 10, 8);
