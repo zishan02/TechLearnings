@@ -88,8 +88,8 @@
     </div>
 <?php else:
 
-
-
-    do_action('chromenews_action_archive_layout');
+// Add code to show further cards
+ get_template_part('template-parts/content', 'subcategory');
+    //do_action('techlearnings_archive_layout_class');
 
 endif;

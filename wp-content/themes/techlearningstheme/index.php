@@ -17,126 +17,19 @@ get_header(); ?>
 
        <div id="primary" class="content-area">
         <div id="newsection">
-            <div class="container">
-
-  <div class="row align-items-center">
-     
-<div class="col">
-<a href=""><div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java_full.png" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Java</h5>
-  </div>
-  </a>
-</div>
-</div>
-<div class="col"><a href="https://techlearnings.in/category/data-structure">
-<a href="https://techlearnings.in/category/data-structure">
-<div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/a-binary-tree-diagram-icon-in-flat-design-vector.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">DSA</h5>
-  </div>
-  </a>
-</div>
-</div></a>
-<div class="col">
-<a href="https://techlearnings.in/category/algorithm">
-<div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/algorithm_full.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Algorithm</h5>
-  </div>
-  </a>
-</div>
-</div>
-<div class="col">
- <a href="https://techlearnings.in/category/design_patterns">
-<div class="card" style="width: 18rem;height : auto;">
-  <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/organization.png" alt="Card image cap">
-  <div class="card-body">
-   <h5 class="card-title">Design Patterns</h5></a>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+          <?php
+                         get_template_part('template-parts/content', 'cards');//get_post_format());
+                         ?>
+            </div>
             <main id="main" class="site-main">
                 <!--<div class="af-container-row">-->
-            
+             <?php
+                get_template_part('template-parts/content', 'mid');//get_post_format());
+                ?>
 
-				<?php
-				if ( have_posts() ) :
+			</main>
+   <!-- </section> -->
 
-					if ( is_home() && ! is_front_page() ) : ?>
-                        <header>
-                            <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-                        </header>
-
-					<?php
-					endif;
-                    $count = 1;
-                    do_action( 'chromenews_archive_layout_before_loop' );
-                    $set_full_first = chromenews_get_option('archive_layout_first_post_full');
-                    $applied_archive = true;
-                    $archive_layout = chromenews_get_option('archive_layout');
-
-
-                    if($archive_layout == 'archive-layout-masonry' || $archive_layout == 'archive-layout-full' ){
-                        $applied_archive = false;
-                    }
-
-                    while (have_posts()) : the_post();
-
-                        if (($count == 1) && ($set_full_first == true) && ($applied_archive == true)) :
-                        ?>
-
-                            <article id="post-<?php the_ID(); ?>" <?php post_class('aft-first-post-full latest-posts-full col-1 float-l pad'); ?> >
-                                <?php chromenews_get_block('full', 'archive'); ?>
-                            </article>
-                        <?php
-
-                        else:
-                            /*
-                         * Include the Post-Format-specific template for the content.
-                         * If you want to override this in a child theme, then include a file
-                         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                         */
-
-                            get_template_part('template-parts/content', 'test');//get_post_format());
-                        endif;
-
-
-                        $count++;
-					endwhile;
-
-					//div wrap end
-					do_action( 'chromenews_archive_layout_after_loop' );
-
-					?> 
-
-				<?php
-
-				else :
-					get_template_part( 'template-parts/content', 'none' );
-
-				endif; ?>
-
-                <!--</div>-->
-            </main><!-- #main -->
-            <div class="col col-ten">
-                <div class="chromenews-pagination">
-					<?php chromenews_numeric_pagination(); ?>
-                </div>
-            </div>
-        </div><!-- #primary -->
-
-		<!-- <?php
-        		get_sidebar();
-        		?> -->
-
-    </section>
 <?php
 get_footer();
+?>
