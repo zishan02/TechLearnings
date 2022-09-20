@@ -22,7 +22,7 @@
 </div>
 </div>
 <div class="col"><a href="https://localhost:8888/category/data-structure">
-<a href="http://localhost:8888/category/data-structure">
+<a href="https://techlearnings.in/category/data-structure">
 <div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/a-binary-tree-diagram-icon-in-flat-design-vector.jpeg" alt="Card image cap">
   <div class="card-body">
@@ -32,7 +32,7 @@
 </div>
 </div></a>
 <div class="col">
-<a href="http://localhost:8888/category/algorithm">
+<a href="https://techlearnings.in/category/algorithm">
 <div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/algorithm_full.jpeg" alt="Card image cap">
   <div class="card-body">
@@ -42,7 +42,7 @@
 </div>
 </div>
 <div class="col">
- <a href="http://localhost:8888/category/design_patterns">
+ <a href="https://techlearnings.in/category/design_patterns">
 <div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/organization.png" alt="Card image cap">
   <div class="card-body">
