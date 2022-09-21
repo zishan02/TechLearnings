@@ -13,7 +13,7 @@
 
   <div class="row align-items-center">
 <div class="col">
-<a href=""><div class="card" style="width: 18rem;height : auto;">
+<a href="https://techlearnings.in/category/java"><div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java_full.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Java</h5>
