@@ -62,20 +62,19 @@ $categories = get_categories( $args );
 ?>
 <div class="cart-alt__contents"><div class="progress-list">
 <?php
-foreach($categories as $category) {
- $args = array( 'category' => get_cat_ID($category->name), 'post_type' =>  'post' );
+
+ $args = array( 'category' => get_cat_ID($term->name), 'post_type' =>  'post' );
     $postslist = get_posts($args);
     $link='';
-    $name='';
 foreach ($postslist as $post){
 $link=get_permalink();
-$name=get_the_title($post);
+   echo '<li class="sublist"><a href="'.$link.'"title="' . sprintf( __( "View all posts in %s" ), $term->name ) . '" ' . '><span class="icon-wrap"><svg class="programiz-icon progress-list__icon"><img src="https://techlearnings.in/wp-content/uploads/2022/09/check-circle.svg"></use></img></span>' .$post->post_title.'</a> </li> ';
+
 }
 
-   echo '<li class="sublist"><a href="'.$link.'"title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '><span class="icon-wrap"><svg class="programiz-icon progress-list__icon"><img src="https://techlearnings.in/wp-content/uploads/2022/09/check-circle.svg"></use></img></span>' .$name.'</a> </li> ';
 
 
-      }
+
 
 ?></div></div></ul>
 </div><?php
