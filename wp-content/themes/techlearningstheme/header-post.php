@@ -97,3 +97,4 @@ if (1 == $enable_preloader):
 
         ?>
     </div>
+    </div>

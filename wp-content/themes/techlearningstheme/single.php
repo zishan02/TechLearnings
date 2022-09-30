@@ -10,34 +10,32 @@
 
 get_header("post");
 
-?><div class="container1">
-        <div class="row">
-            <div class="col-5 sidebarnav">
-                <div class="flex-shrink-0 p-3 bg-white bordersidebar">
-                    <p  class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-                        <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-                        <span class="fs-5 fw-semibold">Contents</span>
-                    </p>
-                    <ul class="list-unstyled ps-0">
-                        <li class="mb-1">
+?>
+    <div class="container1">
+            <div class="row">
+                <div class="col-5 sidebarnav">
+                    <div class="flex-shrink-0 p-3 bg-white bordersidebar">
+                        <p  class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                            <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                            <span class="fs-5 fw-semibold">Contents</span>
+                        </p>
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
 
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
 
-                                 <?php get_sidebar("post");?>
+                                    <?php get_sidebar("post");?>
 
+                             </ul>
+
+                        </li>
                             </ul>
+                    </div>
 
-                    </li>
-                </ul>
-            </div>
+                </div>
 
-       </div>
-
-        <div class="col-7 maincontent">
-
-
-
-                        <?php
+                <div class="col-7 maincontent">
+                           <?php
                             $social_share_icon_opt = chromenews_get_option('single_post_social_share_view');
                             $wrap_class = '';
                             if ($social_share_icon_opt == 'after-content') {
@@ -67,32 +65,18 @@ get_header("post");
                                                         ?>
                                    </div>
 
-                                                    <?php
-                                                    // If comments are open or we have at least one comment, load up the comment template.
-                                                    if (comments_open() || get_comments_number()) :
-                                                    comments_template();
-                                                    endif;
-                                                     ?>
-                                                    <?php
-                                                    $show_related_posts = chromenews_get_option('single_show_related_posts');
-                                                 if ($show_related_posts) :
-                                                if ('post' === get_post_type()) :
-                                                chromenews_get_block('related');
-                                                endif;
-                                                endif;
-                                                    ?>
                             </article>
-            <?php
+                    <?php
 
-            endwhile; // End of the loop...
-            ?>
+                    endwhile; // End of the loop...
+                    ?>
+                    <div class="col sidebarnav">
+                        <h1></h1>
+                     </div>
 
 
-</div>
-
-
-
-</div></div>
+            </div>
+    </div>
 
 <?php
 get_footer();
