@@ -48,6 +48,7 @@ width:100%
 }
 #page{
 background-color:white;
+border-bottom : 1px solid #e5e7eb;
 }
 .card-title{
 text-align: center;
@@ -313,18 +314,25 @@ main {
   overflow-y: auto;
 }
 .bordersidebar{
-border: 1px solid black;
+border: 1px solid #e5e7eb;
 }
 .sidebarnav{
-background-color:white;
+background-color: rgb(255 255 255/var(--tw-bg-opacity)) !important;
+--tw-bg-opacity: 1;
+line-height: 1.5rem;
+border-right: 1px solid #e5e7eb;
 padding-top:1%;
+}
+.maincontent{
+background-color: white;
 }
 @media only screen and (max-width: 780px) {
   .sidebarnav {
     display: none;
   }
 .maincontent{
-width:100%
+width:100%;
+background-color: white;
 }
 }
 
