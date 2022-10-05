@@ -335,5 +335,9 @@ width:100%;
 background-color: white;
 }
 }
+.read-details-tl p {
+font-size:18px;
+line-height: 2.5rem;
+}
 
 
