@@ -13,7 +13,7 @@
 <?php if (is_singular()) : ?>
      <div class="color-pad">
 
-            <div class="entry-content1 read-details1">
+            <div class="entry-content-tl read-details-tl">
 
                 <?php
 
