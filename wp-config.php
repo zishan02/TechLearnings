@@ -21,16 +21,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'test_db' );
+define( 'DB_NAME', 'u334469178_GtkOV' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'u334469178_s5Viw' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'Admin@2023' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost:8889' );
+define( 'DB_HOST', 'mysql' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -39,11 +39,10 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
 /**
-
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
- * You can generate these using the {@link https://ap`i.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+ * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
  * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
  *
  * @since 2.6.0
@@ -57,18 +56,6 @@ define( 'SECURE_AUTH_SALT',  'S((1PRY;blF?;C9R|1Md7vy|t>j_,36h8[?x4Ta;qGXg?14s3E
 define( 'LOGGED_IN_SALT',    'B&y)T.c-Jm2BhqCcf3lYiYVHS?0*>-9bi6grvXVkuZ$s{O<xH^/%5c(mP5&[xx]7' );
 define( 'NONCE_SALT',        'pNG^cC[4PFLT)m1~duwX[3@`X]iSbo]0Dk8Sxh{^b+DAnY%Tmv]<L26!XKy<dYkj' );
 define( 'WP_CACHE_KEY_SALT', 'dT]E,#QC-f7SdE$Giz55(l*d(O6+|AqxC~BnQMM-BB DqJXMjgY{.vIbs6B;]is5' );
-// Enable WP_DEBUG mode
-define( 'WP_DEBUG', true );
-
-// Enable Debug logging to the /wp-content/debug.log file
-define( 'WP_DEBUG_LOG', true );
-
-// Disable display of errors and warnings
-define( 'WP_DEBUG_DISPLAY', true );
-@ini_set( 'display_errors', 0 );
-
-// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
-define( 'SCRIPT_DEBUG', true );
 
 /**
  * WordPress Database Table prefix.
