@@ -70,7 +70,7 @@ get_header("post");
 
                     endwhile; // End of the loop...
                     ?>
-                    <div class="col sidebarnav">
+                    <div class="col rsidebarnav">
                         <h1></h1>
                      </div>
 

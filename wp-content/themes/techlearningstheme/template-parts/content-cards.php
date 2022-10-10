@@ -13,7 +13,7 @@
 
   <div class="row align-items-center">
 <div class="col">
-<a href="https://techlearnings.in/category/java"><div class="card" style="width: 18rem;height : auto;">
+<a href="http://localhost:8888/category/java"><div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/java_full.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Java</h5>
@@ -22,7 +22,7 @@
 </div>
 </div>
 <div class="col"><a href="https://localhost:8888/category/data-structure">
-<a href="https://techlearnings.in/category/data-structure">
+<a href="http://localhost:8888/category/data-structure">
 <div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/08/a-binary-tree-diagram-icon-in-flat-design-vector.jpeg" alt="Card image cap">
   <div class="card-body">
@@ -51,7 +51,7 @@
 </div>
 </div>-->
 <div class="col">
-<a href="https://techlearnings.in/category/python">
+<a href="http://localhost:8888/category/python">
 <div class="card" style="width: 18rem;height : auto;">
   <img class="card-img-top" src="https://techlearnings.in/wp-content/uploads/2022/09/python.png" alt="Card image cap">
   <div class="card-body">

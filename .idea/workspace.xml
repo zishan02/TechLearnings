@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf996ced-23bb-4699-a090-03ebe3cc033b" name="Changes" comment="temp working site  push">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/sidebar-tech.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/template-parts/content-mid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/template-parts/content-subcategory.php" afterDir="false" />
+    <list default="true" id="cf996ced-23bb-4699-a090-03ebe3cc033b" name="Changes" comment="add changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/chromenews/inc/hooks/hook-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/chromenews/inc/hooks/hook-blocks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/header-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/header-post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/template-parts/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/template-parts/content-cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/techlearningstheme/template-parts/content-cards.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/.stylelintignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/.stylelintrc-css.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/.stylelintrc.json" beforeDir="false" />
@@ -201,9 +197,7 @@
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/template-parts/header/site-header.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/template-parts/header/site-nav.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwentyone/template-parts/post/author-bio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/addons.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/addons.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/docs.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/docs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/templates.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/templates.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -513,7 +507,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661801034154</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="css changes to main post page">
+      <created>1664763805495</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664763805495</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add css for font">
+      <created>1664991070387</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664991070387</updated>
+    </task>
+    <task id="LOCAL-00040" summary="class">
+      <created>1664991184733</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1664991184733</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add changes">
+      <created>1664991281502</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664991281502</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -548,6 +570,10 @@
     <MESSAGE value="google adsense" />
     <MESSAGE value="added a new icon" />
     <MESSAGE value="temp working site  push" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp working site  push" />
+    <MESSAGE value="css changes to main post page" />
+    <MESSAGE value="add css for font" />
+    <MESSAGE value="class" />
+    <MESSAGE value="add changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes" />
   </component>
 </project>
